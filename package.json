@@ -1,0 +1,17 @@
+{
+  "name": "cline-account-switcher",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Automatically switch Cline accounts when the rate limit for the model in use is exhausted.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "cline-switch": "bin/switch.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "status": "node bin/switch.mjs status"
+  }
+}

@@ -1,0 +1,6 @@
+node_modules/
+*.log
+# The vault holds OAuth refresh tokens. Never commit it.
+accounts.json
+cooldowns.json
+pending-switch.json
